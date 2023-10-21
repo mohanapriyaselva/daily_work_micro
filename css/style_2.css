@@ -1,0 +1,31 @@
+.bodyColor {
+    background-color: #85d3f2;
+}
+
+.but {
+    width: 200px;
+    height: 250px;
+}
+
+.ton {
+    width: 80px;
+    border-radius: 10px;
+    background-color: #01013a;
+    color: white;
+    border: 0px;
+}
+
+.lightBody {
+    width: 100px;
+    height: 250px;
+    background-color: #01013a;
+    border-radius: 30px;
+}
+
+.redBody {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #393e51;
+
+}
