@@ -14,25 +14,25 @@ go.className = "p-2 redBody";
 function onRed() {
     start.classNmae = "p-2 redBody";
     redLight.style = "background-color:red";
-    orangeLight.style = "background-color:#393e51";
-    greenLight.style = "background-color:#393e51";
+    orangeLight.style = "background-color:#01013a";
+    greenLight.style = "background-color:#01013a";
     ready.style = "background-color:#393e51";
     go.style = "background-color:#393e51";
     start.style = "background-color:red";
 }
 function onOrange() {
     ready.classNmae = "p-2 redBody";
-    redLight.style = "background-color:#393e51";
+    redLight.style = "background-color:#01013a";
     orangeLight.style = "background-color:orange";
-    greenLight.style = "background-color:#393e51";
+    greenLight.style = "background-color:#01013a";
     start.style = "background-color:#393e51";
     go.style = "background-color:#393e51";
     ready.style = "background-color:orange";
 }
 function onGreen() {
     go.classNmae = "p-2 redBody";
-    redLight.style = "background-color:#393e51";
-    orangeLight.style = "background-color:#393e51";
+    redLight.style = "background-color:#01013a";
+    orangeLight.style = "background-color:#01013a";
     greenLight.style = "background-color:green";
     start.style = "background-color:#393e51";
     ready.style = "background-color:#393e51";
