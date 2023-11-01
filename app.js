@@ -5,11 +5,17 @@ function up() {
     var rate = parseInt(document.getElementById("rate").value);
     document.getElementById("amount").value = qty * rate;
 }
+var item = "";
 function update() {
     var nameOfItem = document.getElementById("nameOfItem").value;
     var qty = parseInt(document.getElementById("qty").value);
     var rate = parseInt(document.getElementById("rate").value);
-    document.getElementById("add_1").innerHTML = `<tr><td> ${nameOfItem} </td><td> ${qty} </td><td> ${rate} </td><td> ${(rate * qty)} </td></tr>`;
+    item += `<tr><td> ${nameOfItem} </td><td> ${qty} </td><td> ${rate} </td><td> ${(rate * qty)} </td></tr>`;
+    nameOfItem = document.getElementById("nameOfItem").value = "";
+    qty = document.getElementById("qty").value = "";
+    rate = document.getElementById("rate").value = "";
+    document.getElementById("amount").value = "";
+    document.getElementById("add_1").innerHTML = item;
 }
 function checkSal() {
     var basic = document.getElementById("basic").value;
