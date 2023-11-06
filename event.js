@@ -18,3 +18,5 @@ function box() {
     }
     document.getElementById("box_1").innerHTML = drop;
 }
+
+
